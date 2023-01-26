@@ -1,0 +1,25 @@
+{
+  "name": "chatting_rmq",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@capacitor/preferences": "^4.0.2",
+    "amqplib": "^0.10.3",
+    "awesome-notifications": "^3.1.3",
+    "mitt": "^3.0.0",
+    "stompjs": "^2.3.3",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.1.2"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.1.96",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
